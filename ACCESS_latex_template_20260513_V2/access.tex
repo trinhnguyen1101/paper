@@ -219,7 +219,7 @@ The macro-execution of a sign relies on its trajectory through 3D space. We quan
     \end{align} 
     From these temporal sequences, we aggregate global metrics: \texttt{mean\_velocity} ($\bar{V}$), \texttt{max\_velocity}, \texttt{velocity\_std} ($\sigma_v$), \texttt{mean\_acceleration}, and \texttt{acceleration\_std} ($\sigma_a$). The \texttt{motion\_variance} ($MV$), derived from $\sigma_v^2$, effectively quantifies the erraticness or temporal inconsistency of the sign's execution.
     
-    \item \textbf{Inter-Appendage Dynamics:} To measure multi-limb coordination, we compute the relative Euclidean spatial separation between diverse physiological anchors. The \texttt{left\_right\_hand\_dist\_mean} measures the absolute synchronization of bi-manual signs, while \texttt{hand\_face\_dist\_mean} and \texttt{hand\_body\_dist\_mean} quantify the proximity of the articulators to the core trunk.
+    \item \textbf{Inter-Appendage Dynamics:} To measure multi-limb coordination, we compute the relative Euclidean spatial separation between diverse physiological anchors. The \texttt{left\_right\_hand\_dist\_mean} measures the absolute synchronization of bi-manual signs, while \texttt{hand\_face\_dist\_mean} and \\ \texttt{hand\_body\_dist\_mean} quantify the proximity of the articulators to the core trunk.
 \end{enumerate}
 
 \subsection{Cross-Lingual Semantic Confusability via Dynamic Time Warping (DTW)} 
@@ -521,17 +521,15 @@ The observed inter-signer variability introduces additional challenges for super
 
 These findings suggest that conventional Empirical Risk Minimization (ERM) alone may be insufficient for highly sparse sign-language datasets. More robust learning strategies, including metric learning, contrastive objectives, signer-aware sampling, and semantically consistent data augmentation, may improve robustness against inter-signer variability while reducing the risk of overfitting.
 
-% Added: Explicitly addressed the missing landmark bottleneck identified in the audit.
 \subsection{The Missing Landmark Bottleneck}
 \label{sec:missing_landmarks}
 
-The compounding effects of extreme Total Motion, high execution velocity, and chaotic inter-signer variance are associated with a critical failure point in modern SLR: the missing landmark bottleneck. Pre-trained holistic estimators are vulnerable to motion blur and rapid self-occlusions characteristic of grassroots sign language datasets.
+The combined effects of high total motion, rapid execution velocity, and substantial inter-signer variance may contribute to a notable challenge in modern SLR: the missing landmark bottleneck. Pre-trained holistic estimators can experience tracking degradation due to motion blur and self-occlusions, which are frequently observed in unconstrained grassroots datasets.
 
 % Corrected & Verified: Re-verified percentages from keypoint_quality summaries.
-Our automated tracking audit explicitly quantifies this degradation, documenting substantial hand-landmark missing rates reaching \textbf{39.6\% in ASL} and \textbf{32.3\% in VSL} under real-world kinematic stress. This indicates that for nearly one-third of the total video duration, the network receives little to no structural data regarding the primary articulators of the language.
+Our automated tracking audit quantifies this issue, recording hand-landmark missing rates of \textbf{39.6\% in ASL} and \textbf{32.3\% in VSL} under real-world kinematic conditions. These statistics suggest that for approximately one-third of the total video duration, the models may receive limited structural information concerning the primary articulators.
 
-This finding highlights a limitation in the contemporary deployment of Spatial-Temporal Graph Convolutional Networks (ST-GCN) and Vision Transformers. The standard programmatic convention of zero-padding missing $(x,y,z)$ coordinates disrupts the temporal continuity of the input graph. When a hand coordinate instantly drops to $(0,0,0)$ due to motion blur, the network's derivative functions register a massive acceleration spike, impairing the model's ability to learn meaningful spatial-temporal convolutions. Therefore, developing architectures that natively incorporate missingness-aware attention masking and robust trajectory interpolation represents a key unresolved challenge in bridging the gap between theoretical algorithm design and functional, low-resource deployment.
-
+These missing observations highlight a potential limitation in the contemporary deployment of Spatial-Temporal Graph Convolutional Networks (ST-GCN) and Vision Transformers. The common practice of zero-padding missing $(x,y,z)$ coordinates can disrupt the temporal continuity of the input graph. When a missing coordinate is imputed as $(0,0,0)$, the resulting discontinuity can manifest as an artificial acceleration spike in the network's derivative functions, potentially hindering the extraction of valid spatial-temporal features. Consequently, designing architectures that natively incorporate missingness-aware attention masking and robust trajectory interpolation may represent an important step toward bridging the gap between theoretical algorithm design and functional deployment in low-resource settings.
 % --- ADDED: New Section IV-H — Input Video Quality Assessment (4.4 requirement) ---
 \subsection{Input Video Quality Assessment}
 \label{sec:quality_assessment}
