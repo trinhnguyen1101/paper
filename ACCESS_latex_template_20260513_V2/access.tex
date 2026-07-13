@@ -136,9 +136,9 @@ The initial WLASL benchmark established Pose-based Temporal Graph Convolution (P
 \subsection{Proliferation of Non-English and Multi-Modal Datasets}
 Recognizing the linguistic bias inherent in ASL-dominated research, the global SLR community has recently initiated the development of densely sampled, word-level datasets for various international sign languages. These datasets not only introduce novel grammatical and phonological structures but also pioneer multi-modal data collection techniques to overcome visual tracking bottlenecks. 
 
-For Turkish Sign Language, Sincan and Keles introduced AUTSL \cite{sincan2020autsl}, a large-scale, multi-modal dataset comprising 38,336 isolated sign videos across 226 glosses, performed by 43 different signers. A distinguishing feature of AUTSL is its utilization of Microsoft Kinect sensors to capture both RGB and Depth (RGB-D) modalities simultaneously. By providing depth maps alongside high-resolution spatial coordinates, AUTSL facilitated the development of advanced 3D ResNet \cite{he2016deep} and multi-stream CNN-LSTM architectures capable of mitigating severe self-occlusion—a persistent bottleneck in 2D skeletal tracking. Despite its technological sophistication, AUTSL's tightly bounded vocabulary of 226 glosses limits its applicability for broad, large-vocabulary translation tasks, maintaining a highly dense sampling rate that does not accurately reflect the sparsity of in-the-wild data collection.
+For Turkish Sign Language, Sincan and Keles introduced AUTSL \cite{sincan2020autsl}, a large-scale, multi-modal dataset comprising 38,336 isolated sign videos across 226 glosses, performed by 43 different signers. A distinguishing feature of AUTSL is its utilization of Microsoft Kinect sensors to capture both RGB and Depth (RGB-D) modalities simultaneously. By providing depth maps alongside high-resolution spatial coordinates, AUTSL facilitated the development of advanced ResNet \cite{he2016deep} and multi-stream CNN-LSTM architectures capable of mitigating severe self-occlusion—a persistent bottleneck in 2D skeletal tracking. Despite its technological sophistication, AUTSL's tightly bounded vocabulary of 226 glosses limits its applicability for broad, large-vocabulary translation tasks, maintaining a highly dense sampling rate that does not accurately reflect the sparsity of in-the-wild data collection.
 
-Similar densely resourced initiatives have been executed for Indian and Bangla Sign Languages. The INCLUDE dataset \cite{sridhar2020include} provides 4,287 RGB videos covering 263 Indian Sign Language glosses, offering a vital resource for South Asian SLR. However, the most aggressive scaling of non-English isolated SLR is observed in the recent lineage of Bangla Sign Language (BdSL) datasets. Early efforts, such as SignBD \cite{sams2023signbd}, provided a modest 6,000 videos across 200 signs using 16 signers. This was rapidly superseded by BdSLW60 \cite{rubaiyeat2025bdslw60}, which utilized MediaPipe Holistic landmarks to train attention-based Bi-LSTM networks across 9,307 videos for 60 classes. While these datasets successfully diversify the linguistic pool, a fundamental gap persists: they uniformly rely on dense per-class distributions engineered within controlled settings, which do not provide a realistic testing ground for few-shot learning and long-tail imbalances.
+Similar densely resourced initiatives have been executed for Indian and Bangla Sign Languages. The INCLUDE dataset \cite{sridhar2020include} provides 4,287 RGB videos covering 263 Indian Sign Language glosses, offering a vital resource for South Asian SLR. However, the most aggressive scaling of non-English isolated SLR is observed in the recent lineage of Bangla Sign Language (BdSL) datasets. Early efforts, such as SignBD \cite{sams2023signbd}, provided a modest 102,176 videos across 401  signs using 18 signers. This was rapidly superseded by BdSLW60 \cite{rubaiyeat2025bdslw60}, which utilized MediaPipe Holistic landmarks to train attention-based Bi-LSTM networks across 9,307 videos for 60 classes. While these datasets successfully diversify the linguistic pool, a fundamental gap persists: they uniformly rely on dense per-class distributions engineered within controlled settings, which do not provide a realistic testing ground for few-shot learning and long-tail imbalances.
 
 \subsection{The Vietnamese Sign Language Context and Grassroots Sparsity}
 Vietnamese Sign Language (VSL) has been underrepresented in large-scale, deep learning-driven SLR benchmarks. VSL appears to possess a distinctive topological execution space, characterized by relatively large motion amplitudes, prolonged temporal sequence durations, and a reliance on curved trajectories that may trigger motion blur and tracking failures in standard pose estimators.
@@ -1193,12 +1193,6 @@ H. R. V. Joze and O. Koller, ``MS-ASL: A large-scale data set and benchmark for 
 \bibitem{li2020wlasl}
 D. Li, C. Rodriguez, X. Yu, and H. Li, ``Word-level deep sign language recognition from video: A new large-scale dataset and methods comparison,'' in \emph{Proc. IEEE/CVF Winter Conf. Appl. Comput. Vis. (WACV)}, Snowmass Village, CO, USA, 2020, pp. 1459--1469.
 
-\bibitem{carreira2017quo}
-J. Carreira and A. Zisserman, ``Quo vadis, action recognition? A new model and the kinetics dataset,'' in \emph{Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)}, Honolulu, HI, USA, 2017, pp. 6299--6308.
-
-\bibitem{hochreiter1997long}
-S. Hochreiter and J. Schmidhuber, ``Long short-term memory,'' \emph{Neural Comput.}, vol. 9, no. 8, pp. 1735--1780, Nov. 1997.
-
 \bibitem{sincan2020autsl}
 O. M. Sincan and H. Y. Keles, ``AUTSL: A large scale multimodal Turkish Sign Language dataset and baseline models,'' \emph{IEEE Access}, vol. 8, pp. 181340--181355, 2020.
 
@@ -1255,9 +1249,6 @@ T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollár, ``Focal loss for dense 
 
 \bibitem{cui2019class}
 Y. Cui, M. Jia, T.-Y. Lin, Y. Song, and S. Belongie, ``Class-balanced loss based on effective number of samples,'' in \emph{Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)}, Long Beach, CA, USA, 2019, pp. 9268--9277.
-
-\bibitem{pearson1901lines}
-K. Pearson, ``On lines and planes of closest fit to systems of points in space,'' \emph{Philos. Mag.}, vol. 2, no. 11, pp. 559--572, 1901.
 
 \bibitem{sakoe1978dynamic}
 H. Sakoe and S. Chiba, ``Dynamic programming algorithm optimization for spoken word recognition,'' \emph{IEEE Trans. Acoust., Speech, Signal Process.}, vol. 26, no. 1, pp. 43--49, Feb. 1978.
