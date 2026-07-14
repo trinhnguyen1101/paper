@@ -788,53 +788,47 @@ VSL & 3500 & 2750 & 0.2500 & 0.3960 & -0.0907 & 1.4237 & 11.7156 \\
 \textit{Note:} PC1 and PC1--PC2 denote the explained-variance ratio of the first principal component and the cumulative explained-variance ratio of the first two principal components, respectively. DBI denotes the Davies--Bouldin Index. Values are taken directly from the 4.10 feature-space metric files.
 \end{table*}
 
-\begin{figure*}[htbp]
+\begin{figure}[htbp]
 \centering
-\begin{minipage}{0.49\linewidth}
+\begin{minipage}{0.75\linewidth}
 \centering
-\includegraphics[width=\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png}
+\includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png}\\[6pt]
 \caption*{(a) WLASL PCA}
-\end{minipage}
-\begin{minipage}{0.49\linewidth}
-\centering
-\includegraphics[width=\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png}
+\vspace{8pt}
+\includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png}\\[6pt]
 \caption*{(b) VSL PCA}
 \end{minipage}
 \caption{\textbf{Principal-component projections of the aggregated feature space.} PCA exposes the dominant linear variance directions but does not fully separate gloss neighborhoods, consistent with the moderate explained-variance ratios reported in Table~\ref{tab:feature_space_summary}.}
 \label{fig:pca_pair}
-\end{figure*}
+\end{figure}
 
-\begin{figure*}[htbp]
+\begin{figure}[htbp]
 \centering
-\begin{minipage}{0.49\linewidth}
+\begin{minipage}{0.75\linewidth}
 \centering
-\includegraphics[width=\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png}
+\includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png}\\[6pt]
 \caption*{(a) WLASL t-SNE}
-\end{minipage}
-\begin{minipage}{0.49\linewidth}
-\centering
-\includegraphics[width=\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png}
+\vspace{8pt}
+\includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png}\\[6pt]
 \caption*{(b) VSL t-SNE}
 \end{minipage}
 \caption{\textbf{Local-neighborhood structure under t-SNE.} The non-linear embedding reveals multiple dense pockets, bridges, and fragmented regions, indicating that locality is preserved better than global linear separability.}
 \label{fig:tsne_pair}
-\end{figure*}
+\end{figure}
 
-\begin{figure*}[htbp]
+\begin{figure}[htbp]
 \centering
-\begin{minipage}{0.49\linewidth}
+\begin{minipage}{0.75\linewidth}
 \centering
-\includegraphics[width=\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png}
+\includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png}\\[6pt]
 \caption*{(a) WLASL UMAP}
-\end{minipage}
-\begin{minipage}{0.49\linewidth}
-\centering
-\includegraphics[width=\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png}
+\vspace{8pt}
+\includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png}\\[6pt]
 \caption*{(b) VSL UMAP}
 \end{minipage}
 \caption{\textbf{Manifold organization under UMAP.} UMAP preserves both local neighborhoods and broader manifold continuity, showing that the corpus contains connected semantic regions alongside isolated outliers.}
 \label{fig:umap_pair}
-\end{figure*}
+\end{figure}
 
 The visual and numerical evidence should be read together rather than independently. In the PCA views, both corpora form broad overlapping clouds with peripheral outliers, which suggests that the dominant variance directions are shared by multiple glosses rather than cleanly partitioned by class. The t-SNE and UMAP views reveal more structure: local pockets appear within each corpus, but the pockets are connected by bridges and interleaved with nearby classes. This is consistent with the geometry one would expect when the descriptor space captures meaningful articulatory structure but the sample density is too low to resolve sharp class boundaries. In other words, the representations are informative, yet not sufficiently compressed into separable islands for naive linear discrimination.
 
@@ -847,6 +841,7 @@ The discussion above is best interpreted as a statement about dataset geometry, 
 \FloatBarrier
 
 % Revised: Ensured IEEE Access section formatting and preserved the critical transition paragraph.
+\FloatBarrier
 \section{Proposed Domain-Aware Training Blueprint} \label{sec:actionplan}
 
 Taken together, these sparsity metrics, the 30\%+ MediaPipe failure rates, the 2.07 $\times$ higher motion amplitudes, and the substantial inter-signer variation suggest that conventional supervised training architectures may face challenges in real-world, grassroots SLR deployment. To address this gap, the study moves from empirical observation to structural algorithmic reform. 
@@ -935,6 +930,8 @@ The practical implications of these structural divergences suggest a shift in ho
 
 Future research should shift from broad dataset scaling toward variance-aware data curation and adaptive architectural design. Rather than uniformly scraping broad vocabularies to maximize class counts, dataset collection efforts should prioritize deep, multi-signer sampling specifically for highly entropic, emotionally complex glosses that exhibit large inter-signer execution variance. Algorithmically, the observation of substantial spatial aliasing—driven by an average of 67.25 direction changes per VSL sequence—suggests that rigid 2D Spatial-Temporal Graph Convolutional Networks (ST-GCNs) may face increasing limitations for unconstrained grassroots data. Future architectures should explore elastic, warp-invariant temporal alignments and natively integrate robust 3D coordinate unrolling to resolve the ambiguity of orthogonal foreshortening. Ultimately, translating these empirical boundaries into missing-data-resilient neural architectures will help support more robust and broadly applicable Sign Language Recognition systems globally.
 
+\FloatBarrier
+\clearpage
 \appendices
 
 \section{VSL Kinematic Complexity Ranking}
