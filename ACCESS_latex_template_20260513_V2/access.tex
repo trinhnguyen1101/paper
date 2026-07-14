@@ -9,6 +9,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{longtable}
+\usepackage{placeins}
 \usepackage[hidelinks]{hyperref}
 \usepackage[utf8]{caption}
 \usepackage[T1]{fontenc}
@@ -53,6 +54,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
 \begin{document}
+\raggedbottom
 
 % \history{}
 % \doi{}
@@ -841,6 +843,8 @@ The cluster scores reinforce that interpretation. A negative Silhouette Score in
 To make that distinction concrete, the cross-lingual similarity analysis in Section~\ref{sec:similarity} shows that some pairs are almost isomorphic in the descriptor space while others differ strongly in handshape, movement, and orientation. The mean cosine similarity of 0.5701 and the wide range from 0.1505 to 0.9742 indicate that transferability is heterogeneous, not binary. Highly iconic pairs such as ``bụng''--``abdomen'' occupy a shared neighborhood, whereas culturally specific signs such as ``phòng thư viện''--``library'' remain far apart. This pattern is scientifically important because it implies that hard-negative mining should be driven by measured geometric proximity rather than by lexical intuition alone. It also suggests that a single global embedding space may be too coarse for all glosses; some subregions are naturally aligned across languages, while others require explicit adaptation.
 
 The discussion above is best interpreted as a statement about dataset geometry, not about recognition accuracy. The analyses do not train a classifier and do not measure downstream recognition performance. What they do show is that representation learning will have to contend with three interacting sources of difficulty: sparse within-class sampling, non-linear manifold folding, and cross-lingual neighborhoods that are sometimes close and sometimes sharply separated. That combination explains why missingness-aware masking, temporal normalization, and contrastive objectives are scientifically justified for low-resource sign-language corpora \cite{buda2018systematic, chen2020simple, robinson2020contrastive, sakoe1978dynamic}.
+
+\FloatBarrier
 
 % Revised: Ensured IEEE Access section formatting and preserved the critical transition paragraph.
 \section{Proposed Domain-Aware Training Blueprint} \label{sec:actionplan}
