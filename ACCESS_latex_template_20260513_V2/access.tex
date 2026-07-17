@@ -334,14 +334,11 @@ The distributional asymmetry induced by floor-dominated sparsity extends beyond 
 The empirical disparity in dataset scale is compounded by notable structural differences in how the signs themselves are physically executed. To rigorously map these differences, the spatial-temporal coordinates of both corpora were processed through our kinematic feature extraction pipeline, detailing a fundamental divergence in motion geometry.
 
 \subsubsection{Trajectory Amplitude}
-% Revised: Preserved original paragraph while enhancing section hierarchy.
-The foundational bounding parameters of any gesture are its total spatial displacement and its temporal duration. Let $p_t = (x_t, y_t, z_t) \in \mathbb{R}^3$ denote the 3D spatial centroid of the dominant articulator at frame $t$, normalized relative to the signer's inter-shoulder Euclidean distance to guarantee scale invariance across diverse human subjects. We define the Total Motion (TM), or trajectory amplitude, as the path integral of the discrete spatial displacements over the video sequence of length $T$:
-\begin{equation} \label{eq:tm2} 
-\text{TM} = \sum_{t=1}^{T-1} \lVert p_{t+1} - p_t \rVert_2 
-\end{equation}
+% Revised: Removed duplicate TM equation (already defined in Section III-D as eq:totalmotion); now references it directly to avoid restating the formula.
+The foundational bounding parameters of any gesture are its total spatial displacement and its temporal duration. Applying the Total Motion (TM) metric defined in Eq. \eqref{eq:totalmotion} to the normalized centroid trajectory $p_t = (x_t, y_t, z_t) \in \mathbb{R}^3$ of the dominant articulator---scaled relative to the signer's inter-shoulder Euclidean distance to guarantee invariance across diverse human subjects---yields a substantial empirical divergence between the two corpora.
 
 % Added: Expanded interpretation with verified data and inserted missing figures.
-Empirical extraction reveals a substantial divergence: the overall VSL corpus records a Total Motion amplitude of 25.01, which is 2.07 $\times$ higher than ASL's 12.07. Fig. \ref{fig:box_tm} and Fig. \ref{fig:hist_tm} visually substantiate this extreme spatial footprint. The distributions indicate that VSL sequences are not merely uniformly longer; rather, they are heavily right-skewed by highly kinetic outlier glosses possessing substantially larger physical amplitudes compared to the typical range observed in conversational ASL.
+Empirical extraction reveals that the overall VSL corpus records a Total Motion amplitude of 25.01, which is 2.07 $\times$ higher than ASL's 12.07. Fig. \ref{fig:box_tm} and Fig. \ref{fig:hist_tm} visually substantiate this extreme spatial footprint. The distributions indicate that VSL sequences are not merely uniformly longer; rather, they are heavily right-skewed by highly kinetic outlier glosses possessing substantially larger physical amplitudes compared to the typical range observed in conversational ASL.
 
 \begin{figure}[htbp]
 \centering
@@ -358,13 +355,8 @@ Empirical extraction reveals a substantial divergence: the overall VSL corpus re
 \end{figure}
 
 \subsubsection{Velocity and Acceleration}
-% Revised: Preserved original methodology integration.
-Let $\Delta t$ represent the fixed temporal gap between frames (approximately $0.033$ seconds at 30 FPS). The instantaneous velocity $V_t$ and acceleration $A_t$ are defined as:
-\begin{align} \label{eq:velocity} 
-V_t &= \frac{\lVert p_t - p_{t-1} \rVert_2}{\Delta t} \\ 
-A_t &= \frac{V_t - V_{t-1}}{\Delta t} \label{eq:acceleration} 
-\end{align}
-From these temporal sequences, we aggregate global metrics: \texttt{mean\_velocity} ($\bar{V}$), \texttt{max\_velocity}, \texttt{velocity\_std} ($\sigma_v$), \texttt{mean\_acceleration}, and \texttt{acceleration\_std} ($\sigma_a$).
+% Revised: Removed duplicate velocity/acceleration equations (originally re-used labels eq:velocity and eq:acceleration already defined in Section III-D, causing a LaTeX duplicate-label conflict); now references the Methodology definitions directly.
+Applying the first- and second-order derivatives $V_t$ and $A_t$ defined in Eq. \eqref{eq:velocity} and Eq. \eqref{eq:acceleration} to the extracted centroid trajectories, we aggregate the global kinetic metrics \texttt{mean\_velocity} ($\bar{V}$), \texttt{max\_velocity}, \texttt{velocity\_std} ($\sigma_v$), \texttt{mean\_acceleration}, and \texttt{acceleration\_std} ($\sigma_a$) for both corpora.
 
 % Added: Inserted missing velocity and acceleration plots to back up quantitative claims.
 As illustrated in Fig. \ref{fig:box_vel} and Fig. \ref{fig:box_acc}, VSL operates at a substantially higher kinetic baseline, clocking a 1.51 $\times$ faster Mean Velocity compared to ASL.
@@ -387,12 +379,8 @@ As illustrated in Fig. \ref{fig:box_vel} and Fig. \ref{fig:box_acc}, VSL operate
 Because shutter exposure times in generic web-cameras remain static, the rapid ballistic strokes characteristic of VSL can artificially smear the RGB pixel boundaries of the hand. This phenomenon is associated with degraded landmark confidence scores across the skeletal graph and contributes to the 32.3\% missing hand tracking rate observed in the VSL data, hindering standard 2D tracking pipelines.
 
 \subsubsection{Curvature, Straightness, and Trajectory Entropy}
-% Revised: Kept original paragraph verbatim.
-While Total Motion captures the raw energy expended, it fails to describe the geometric topology of the execution. An identical Total Motion value could theoretically represent a single, long linear sweep or a tight, rapidly oscillating circle. To resolve this geometric ambiguity, we compute the Straightness Ratio (SR) \cite{pearson1901lines}, defined as the quotient of the net Euclidean displacement from the initial to the terminal frame versus the total trajectory path length: 
-\begin{equation} \label{eq:sr2} 
-\text{SR} = \frac{\lVert p_T - p_1 \rVert_2}{\text{TM}}, \qquad 0 \le \text{SR} \le 1 
-\end{equation}
-A Straightness Ratio approaching $1.0$ indicates a purely linear stroke. Conversely, as SR approaches $0.0$, the path becomes increasingly curved, repeated, or recursive.
+% Revised: Removed duplicate SR equation (already defined in Section III-D as eq:straightness); now references it directly instead of restating the formula under a new label (eq:sr2).
+While Total Motion captures the raw energy expended, it fails to describe the geometric topology of the execution. An identical Total Motion value could theoretically represent a single, long linear sweep or a tight, rapidly oscillating circle. To resolve this geometric ambiguity, we apply the Straightness Ratio (SR) \cite{pearson1901lines} defined in Eq. \eqref{eq:straightness}, bounded such that $0 \le \text{SR} \le 1$: a value approaching $1.0$ indicates a purely linear stroke, while a value approaching $0.0$ indicates a path that is increasingly curved, repeated, or recursive.
 
 % Added: Integration of the SR boxplot and visual trajectory examples to ground the math.
 Analysis of the extracted features demonstrates that VSL trajectories are highly curved, exhibiting an SR of 0.039 compared to ASL's 0.137. This mathematically equates to a 71.5\% reduction in trajectory linearity. Fig. \ref{fig:box_sr} quantifies this pronounced concentration near zero. To physically ground these mathematical abstractions, Fig. \ref{fig:traj_vsl} and Fig. \ref{fig:traj_asl} visualize the spatial coordinates of representative signs from both corpora. The VSL trajectories display pronounced spatial complexity and recursive curvature, standing in contrast to the smoother, more regular geometric profiles of ASL.
