@@ -12,6 +12,7 @@
 \citation{neidle2012asllvd}
 \@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{2}{section.2}\protected@file@percent }
 \newlabel{sec:related}{{II}{2}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Foundational Benchmarks in American Sign Language}{2}{subsection.2.1}\protected@file@percent }
 \citation{joze2019msasl}
 \citation{li2020wlasl}
 \citation{sincan2020autsl}
@@ -20,7 +21,6 @@
 \citation{sams2023signbd}
 \citation{rubaiyeat2025bdslw60}
 \citation{nguyen2026vsl400}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Foundational Benchmarks in American Sign Language}{3}{subsection.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Proliferation of Non-English and Multi-Modal Datasets}{3}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}The Vietnamese Sign Language Context and Grassroots Sparsity}{3}{subsection.2.3}\protected@file@percent }
 \citation{camgoz2018neural}
@@ -55,6 +55,8 @@
 \newlabel{eq:dtw}{{6}{6}{Cross-Lingual Semantic Confusability via Dynamic Time Warping (DTW)}{equation.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-F}}Statistical Analysis}{6}{subsection.3.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-G}}Inter-Signer Execution Variance Metric}{6}{subsection.3.7}\protected@file@percent }
+\citation{buda2018systematic}
+\citation{lin2017focal}
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Scale, Sparsity, and Long-Tail Imbalance Analysis}{7}{section.4}\protected@file@percent }
 \newlabel{sec:scale}{{IV}{7}{Scale, Sparsity, and Long-Tail Imbalance Analysis}{section.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Dataset Scale and Extreme Sparsity}{7}{subsection.4.1}\protected@file@percent }
@@ -62,16 +64,14 @@
 \newlabel{fig:1}{{1}{7}{\textbf {VSL Class Distribution.} Histogram showing the extreme long-tail (floor-dominated) distribution of the VSL corpus, where the vast majority of classes contain only a single video sample}{figure.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \textbf  {CLASS-IMBALANCE AND SCALE SUMMARY STATISTICS}}}{7}{table.1}\protected@file@percent }
 \newlabel{tab:1}{{1}{7}{\textbf {CLASS-IMBALANCE AND SCALE SUMMARY STATISTICS}}{table.1}{}}
-\citation{buda2018systematic}
-\citation{lin2017focal}
 \citation{cui2019class}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Class-Count Concentration}{8}{subsection.4.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {VSL Lorenz Curve.} The Lorenz curve visually maps the sample inequality within the VSL corpus, yielding a Gini coefficient of 0.203.}}{8}{figure.2}\protected@file@percent }
 \newlabel{fig:2}{{2}{8}{\textbf {VSL Lorenz Curve.} The Lorenz curve visually maps the sample inequality within the VSL corpus, yielding a Gini coefficient of 0.203}{figure.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Architectural Implications}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}1}Impact on Few-Shot and Long-Tail Learning Dynamics}{8}{subsubsection.4.3.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Class Sample Distribution.} A comparative boxplot highlighting the severe sparsity and collapsed median of the VSL corpus relative to the denser WLASL dataset.}}{8}{figure.3}\protected@file@percent }
 \newlabel{fig:3}{{3}{8}{\textbf {Class Sample Distribution.} A comparative boxplot highlighting the severe sparsity and collapsed median of the VSL corpus relative to the denser WLASL dataset}{figure.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}1}Impact on Few-Shot and Long-Tail Learning Dynamics}{8}{subsubsection.4.3.1}\protected@file@percent }
 \citation{pearson1901lines}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Spatial-Temporal and Kinematic Complexities}{9}{subsection.4.4}\protected@file@percent }
 \newlabel{sec:kinematics}{{\mbox  {IV-D}}{9}{Spatial-Temporal and Kinematic Complexities}{subsection.4.4}{}}
@@ -93,9 +93,9 @@
 \newlabel{fig:traj_vsl}{{9}{10}{\textbf {VSL Spatial Signatures.} Physical 2D trajectory visualizations of VSL signs, showing notable spatial complexity, recursive wrapping, and multiple direction changes}{figure.9}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \textbf  {ASL Spatial Signatures.} Physical 2D trajectory visualizations of ASL signs, illustrating structurally smoother geometric profiles and higher spatial efficiency.}}{10}{figure.10}\protected@file@percent }
 \newlabel{fig:traj_asl}{{10}{10}{\textbf {ASL Spatial Signatures.} Physical 2D trajectory visualizations of ASL signs, illustrating structurally smoother geometric profiles and higher spatial efficiency}{figure.10}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}4}Deeper Scientific Implications on Graph Neural Networks}{10}{subsubsection.4.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \textbf  {Kinematic Entropy Scaling.} Scatter plot illustrating the non-linear increase of motion variance relative to total trajectory amplitude, highlighting the higher variability of highly active VSL glosses.}}{11}{figure.11}\protected@file@percent }
-\newlabel{fig:scatter_tm_mv}{{11}{11}{\textbf {Kinematic Entropy Scaling.} Scatter plot illustrating the non-linear increase of motion variance relative to total trajectory amplitude, highlighting the higher variability of highly active VSL glosses}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \textbf  {Kinematic Entropy Scaling.} Scatter plot illustrating the non-linear increase of motion variance relative to total trajectory amplitude, highlighting the higher variability of highly active VSL glosses.}}{10}{figure.11}\protected@file@percent }
+\newlabel{fig:scatter_tm_mv}{{11}{10}{\textbf {Kinematic Entropy Scaling.} Scatter plot illustrating the non-linear increase of motion variance relative to total trajectory amplitude, highlighting the higher variability of highly active VSL glosses}{figure.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}4}Deeper Scientific Implications on Graph Neural Networks}{11}{subsubsection.4.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Spatial Orientation and 3D Hand Trajectories}{11}{subsection.4.5}\protected@file@percent }
 \newlabel{sec:spatial_orientation}{{\mbox  {IV-E}}{11}{Spatial Orientation and 3D Hand Trajectories}{subsection.4.5}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-E}1}Biomechanics and Linguistic Implications}{11}{subsubsection.4.5.1}\protected@file@percent }
@@ -103,10 +103,10 @@
 \newlabel{fig:asl_hands}{{12}{11}{\textbf {ASL Hand Usage Distribution.} Distribution of hand usage in the ASL corpus, showing a baseline of 64.7\% two-handed execution, allowing for simpler unilateral tracking in roughly one-third of the dataset}{figure.12}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces \textbf  {VSL Hand Usage Distribution.} Distribution of hand usage in the VSL corpus, showing a pronounced skew toward two-handed signs (72.8\%), which increases the risk of spatial occlusion during tracking.}}{11}{figure.13}\protected@file@percent }
 \newlabel{fig:vsl_hands}{{13}{11}{\textbf {VSL Hand Usage Distribution.} Distribution of hand usage in the VSL corpus, showing a pronounced skew toward two-handed signs (72.8\%), which increases the risk of spatial occlusion during tracking}{figure.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-F}}Signer Variation and Execution Consistency}{11}{subsection.4.6}\protected@file@percent }
+\newlabel{sec:signer_variation}{{\mbox  {IV-F}}{11}{Signer Variation and Execution Consistency}{subsection.4.6}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {SIGNER VARIATION RANKING (INTER-SIGNER EXECUTION VARIANCE)}}}{12}{table.2}\protected@file@percent }
 \newlabel{tab:variation}{{2}{12}{\textbf {SIGNER VARIATION RANKING (INTER-SIGNER EXECUTION VARIANCE)}}{table.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-F}}Signer Variation and Execution Consistency}{12}{subsection.4.6}\protected@file@percent }
-\newlabel{sec:signer_variation}{{\mbox  {IV-F}}{12}{Signer Variation and Execution Consistency}{subsection.4.6}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-F}1}Model Design Implications}{12}{subsubsection.4.6.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-G}}The Missing Landmark Bottleneck}{12}{subsection.4.7}\protected@file@percent }
 \newlabel{sec:missing_landmarks}{{\mbox  {IV-G}}{12}{The Missing Landmark Bottleneck}{subsection.4.7}{}}
@@ -125,17 +125,17 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Iconic Universality versus Cultural Divergence}{13}{subsection.5.2}\protected@file@percent }
 \citation{robinson2020contrastive}
 \citation{oord2018representation}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Cross-Lingual Semantic Similarity Extremes Between VSL and WLASL Gloss Pairs}}{14}{table.4}\protected@file@percent }
+\newlabel{tab:similarity_extremes}{{4}{14}{Cross-Lingual Semantic Similarity Extremes Between VSL and WLASL Gloss Pairs}{table.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Domain Shift and Hard Negative Mining}{14}{subsection.5.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces \textbf  {Similarity vs. Kinematic Difference Correlation.} Scatter plot indicating a consistent negative association between cross-lingual DTW similarity scores and absolute differences in motion complexity. Glosses failing to map tend to be isolated by their geometric boundaries.}}{14}{figure.15}\protected@file@percent }
 \newlabel{fig:10}{{15}{14}{\textbf {Similarity vs. Kinematic Difference Correlation.} Scatter plot indicating a consistent negative association between cross-lingual DTW similarity scores and absolute differences in motion complexity. Glosses failing to map tend to be isolated by their geometric boundaries}{figure.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces \textbf  {TOP INTER-CLASS CONFUSABILITY PAIRS FOR HARD NEGATIVE MINING}}}{14}{table.5}\protected@file@percent }
+\newlabel{tab:hard_negatives}{{5}{14}{\textbf {TOP INTER-CLASS CONFUSABILITY PAIRS FOR HARD NEGATIVE MINING}}{table.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {VI}Recognition-Oriented Dataset Analysis}{14}{section.6}\protected@file@percent }
 \newlabel{sec:recognition_oriented_dataset_analysis}{{VI}{14}{Recognition-Oriented Dataset Analysis}{section.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Dataset Recognition Difficulty Analysis}{14}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Feature Space Analysis}{14}{subsection.6.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Cross-Lingual Semantic Similarity Extremes Between VSL and WLASL Gloss Pairs}}{15}{table.4}\protected@file@percent }
-\newlabel{tab:similarity_extremes}{{4}{15}{Cross-Lingual Semantic Similarity Extremes Between VSL and WLASL Gloss Pairs}{table.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces \textbf  {TOP INTER-CLASS CONFUSABILITY PAIRS FOR HARD NEGATIVE MINING}}}{15}{table.5}\protected@file@percent }
-\newlabel{tab:hard_negatives}{{5}{15}{\textbf {TOP INTER-CLASS CONFUSABILITY PAIRS FOR HARD NEGATIVE MINING}}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Feature Space Analysis}{15}{subsection.6.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {VII}Feature-Space Separability Analysis}{15}{section.7}\protected@file@percent }
 \newlabel{sec:feature_space_separability}{{VII}{15}{Feature-Space Separability Analysis}{section.7}{}}
 \citation{buda2018systematic,chen2020simple,robinson2020contrastive,sakoe1978dynamic}
@@ -200,7 +200,9 @@
 \newlabel{tab:app_sequence}{{9}{20}{Representative Glosses with the Largest Sequence-Length Variance}{table.9}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Representative VSL Glosses with the Largest Inter-Signer Execution Variance}}{20}{table.10}\protected@file@percent }
 \newlabel{tab:app_signer}{{10}{20}{Representative VSL Glosses with the Largest Inter-Signer Execution Variance}{table.10}{}}
-\@writefile{toc}{\contentsline {subsection}{First A. Author}{20}{section*.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{Second B. Author}{20}{section*.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{Third C. Author, Jr.}{21}{section*.2}\protected@file@percent }
-\gdef \@abspage@last{21}
+\@writefile{toc}{\contentsline {subsection}{Trinh Van Nguyen}{22}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Luong Thien Phuc}{22}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Nguyen Ngoc Hai}{22}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Huynh Bao Minh}{22}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Vo Le Minh Chien}{22}{section*.2}\protected@file@percent }
+\gdef \@abspage@last{22}

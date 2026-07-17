@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.7)  17 JUL 2026 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.7)  17 JUL 2026 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,54 +837,54 @@ Package hyperref Info: Link coloring OFF on input line 59.
 \@outlinefile=\write3
 \openout3 = `access.out'.
 
-<bullet.png, id=209, 12.045pt x 35.38219pt>
+<bullet.png, id=215, 12.045pt x 35.38219pt>
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 88.
+Package pdftex.def Info: bullet.png  used on input line 83.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 88.
+Package xcolor Warning: Incompatible color definition on input line 83.
 
 LaTeX Font Info:    Trying to load font information for T5+formata on input lin
-e 88.
+e 83.
 (./t5formata.fd)
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-9.
+4.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-9.
+4.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-89.
+84.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-89.
+84.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 89.
+(Font)              <10> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 89.
+(Font)              <7> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 89.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+(Font)              <5> on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -892,49 +892,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 92.
+Package pdftex.def Info: bullet.png  used on input line 87.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 92.
+Package xcolor Warning: Incompatible color definition on input line 87.
+
+
+Package xcolor Warning: Incompatible color definition on input line 93.
+
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.9> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.92996> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.95> on input line 93.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.6> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.61998> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.3> on input line 93.
+
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 93--93
+[]  
+ []
+
+
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 93--93
+[]  
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 94.
 
 
 Package xcolor Warning: Incompatible color definition on input line 98.
 
-LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.9> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.92996> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.95> on input line 98.
-LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.6> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.61998> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.3> on input line 98.
-
-Overfull \hbox (9.2679pt too wide) in paragraph at lines 98--98
-[]  
- []
-
-
-Overfull \hbox (9.2679pt too wide) in paragraph at lines 98--98
-[]  
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 99.
-
-
-Package xcolor Warning: Incompatible color definition on input line 102.
-
-<logo.png, id=211, 206.27063pt x 53.44969pt>
+<logo.png, id=217, 206.27063pt x 53.44969pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 102.
+Package pdftex.def Info: logo.png  used on input line 98.
 (pdftex.def)             Requested size: 91.32pt x 23.66309pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -960,51 +960,51 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
  <./logo.png> <./bullet.png>]
-Underfull \hbox (badness 2486) in paragraph at lines 115--117
+Underfull \hbox (badness 2486) in paragraph at lines 110--112
 []\T5/times/bx/n/10 Comprehensive Kine-matic Char-ac-ter-i-za-tion: \T5/times/m
 /n/10 We
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 118--120
+Underfull \hbox (badness 2020) in paragraph at lines 113--115
 []\T5/times/bx/n/10 Spatial Topol-ogy Anal-y-sis: \T5/times/m/n/10 We in-ves-ti
 -gate signer
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 121--123
+Underfull \hbox (badness 1616) in paragraph at lines 116--118
 []\T5/times/bx/n/10 Cross-Lingual Se-man-tic Sim-i-lar-ity Anal-y-sis: \T5/time
 s/m/n/10 We
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 130.
+Package xcolor Warning: Incompatible color definition on input line 125.
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 132--133
+Underfull \hbox (badness 1783) in paragraph at lines 127--128
 \T5/times/m/n/10 lan-guages, par-tic-u-larly Amer-i-can Sign Lan-guage (ASL),
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 134.
+Package xcolor Warning: Incompatible color definition on input line 129.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 134.
+(Font)              using `T5/formata/b/it' instead on input line 129.
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 135--136
+Underfull \hbox (badness 1430) in paragraph at lines 130--131
 \T5/times/m/n/10 datasets. Early ef-forts, such as the ASL Lex-i-con Video
  []
 
-<notaglinelogo.png, id=239, 169.38281pt x 42.91031pt>
+<notaglinelogo.png, id=245, 169.38281pt x 42.91031pt>
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 136.
+Package pdftex.def Info: notaglinelogo.png  used on input line 131.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 136.
+(Font)              using `T1/formata/m/it' instead on input line 131.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1024,31 +1024,31 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [2{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2026/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathit.enc} <./notaglinelogo.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 141.
+Package xcolor Warning: Incompatible color definition on input line 136.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 141.
+(Font)              using `T5/formata/b/it' instead on input line 136.
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 146--147
+Underfull \hbox (badness 1502) in paragraph at lines 141--142
 \T5/times/m/n/10 for In-dian and Bangla Sign Lan-guages. The IN-CLUDE
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 148.
+Package xcolor Warning: Incompatible color definition on input line 143.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 148.
+(Font)              using `T5/formata/b/it' instead on input line 143.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 156.
+(Font)              using `T1/formata/m/it' instead on input line 151.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 156.
+Package pdftex.def Info: notaglinelogo.png  used on input line 151.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1067,42 +1067,42 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [3]
 
-Package xcolor Warning: Incompatible color definition on input line 157.
+Package xcolor Warning: Incompatible color definition on input line 152.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 157.
+(Font)              using `T5/formata/b/it' instead on input line 152.
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 162--163
+Underfull \hbox (badness 1701) in paragraph at lines 157--158
 \T5/times/m/n/10 hours of video and 1,000 glosses with min-i-mal hu-man
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 162--163
+Underfull \hbox (badness 2469) in paragraph at lines 157--158
 \T5/times/m/n/10 in-ter-ven-tion. While con-tin-u-ous datasets like PHOENIX,
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 164.
+Package xcolor Warning: Incompatible color definition on input line 159.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 164.
+(Font)              using `T5/formata/b/it' instead on input line 159.
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 175--176
+Underfull \hbox (badness 1430) in paragraph at lines 170--171
 \T5/times/m/it/10 record-ing di-ver-sity\T5/times/m/n/10 ^^Vencompassing dif-fe
 r-ences in cam-era
  []
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 176.
+Package pdftex.def Info: notaglinelogo.png  used on input line 171.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 176.
+(Font)              using `T1/formata/m/it' instead on input line 171.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1121,27 +1121,59 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [4]
 
-Package xcolor Warning: Incompatible color definition on input line 177.
+Package xcolor Warning: Incompatible color definition on input line 172.
 
 
-Package xcolor Warning: Incompatible color definition on input line 181.
+Package xcolor Warning: Incompatible color definition on input line 176.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 181.
+(Font)              using `T5/formata/b/it' instead on input line 176.
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 182--183
+Underfull \hbox (badness 1874) in paragraph at lines 177--178
 \T5/times/m/n/10 The in-tegrity of our com-par-a-tive anal-y-sis re-lies on the
 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 184.
+Package xcolor Warning: Incompatible color definition on input line 179.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 184.
+(Font)              using `T5/formata/b/it' instead on input line 179.
+
+
+Package xcolor Warning: Incompatible color definition on input line 182.
+
+
+LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
+(Font)              using `T5/formata/b/it' instead on input line 182.
+
+LaTeX Font Info:    Trying to load font information for T5+pcr on input line 18
+5.
+(c:/texlive/2026/texmf-dist/tex/latex/vntex/t5pcr.fd
+File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
+)
+
+LaTeX Font Warning: Font shape `T5/pcr/n/n' undefined
+(Font)              using `T5/pcr/m/n' instead on input line 185.
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 185--186
+\T5/times/m/n/10 If a cru-cial an-chor-ing land-mark (e.g., the wrist or the
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 185--186
+\T5/times/m/n/10 dom-i-nant in-dex fin-ger) drops be-low this thresh-old, the
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 185--186
+\T5/times/m/n/10 quality met-rics, such as \T5/pcr/n/n/10 left_hand_missing_rat
+e\T5/times/m/n/10 ,
+ []
 
 
 Package xcolor Warning: Incompatible color definition on input line 187.
@@ -1150,54 +1182,22 @@ Package xcolor Warning: Incompatible color definition on input line 187.
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
 (Font)              using `T5/formata/b/it' instead on input line 187.
 
-LaTeX Font Info:    Trying to load font information for T5+pcr on input line 19
-0.
-(c:/texlive/2026/texmf-dist/tex/latex/vntex/t5pcr.fd
-File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
-)
 
-LaTeX Font Warning: Font shape `T5/pcr/n/n' undefined
-(Font)              using `T5/pcr/m/n' instead on input line 190.
+Package xcolor Warning: Incompatible color definition on input line 190.
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 190--191
-\T5/times/m/n/10 If a cru-cial an-chor-ing land-mark (e.g., the wrist or the
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 190--191
-\T5/times/m/n/10 dom-i-nant in-dex fin-ger) drops be-low this thresh-old, the
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 190--191
-\T5/times/m/n/10 quality met-rics, such as \T5/pcr/n/n/10 left_hand_missing_rat
-e\T5/times/m/n/10 ,
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 192.
-
-
-LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 192.
-
-
-Package xcolor Warning: Incompatible color definition on input line 195.
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 203--204
+Underfull \hbox (badness 1590) in paragraph at lines 198--199
 []\T5/times/bx/n/10 Digit-to-Wrist Ra-tios and Open-ness Prox-ies: \T5/times/m/
 n/10 To
  []
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 204.
+(Font)              using `T1/formata/m/it' instead on input line 199.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 204.
+Package pdftex.def Info: notaglinelogo.png  used on input line 199.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1217,53 +1217,56 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [5{c:/texlive/2026/texmf-dist/fonts/enc/dvips/vntex/t5.enc}{c:/texlive/2026/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 
-Package xcolor Warning: Incompatible color definition on input line 207.
+Package xcolor Warning: Incompatible color definition on input line 202.
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 224--226
+Underfull \hbox (badness 1735) in paragraph at lines 219--221
 \T5/times/m/n/10 met-rics: \T5/pcr/n/n/10 mean_velocity \T5/times/m/n/10 ($[]$)
 , \T5/pcr/n/n/10 max_velocity\T5/times/m/n/10 ,
  []
 
 
-Overfull \hbox (6.19055pt too wide) in paragraph at lines 224--226
+Overfull \hbox (6.19055pt too wide) in paragraph at lines 219--221
 \T5/pcr/n/n/10 ac-cel-er-a-tion_std \T5/times/m/n/10 ($\OML/lmm/m/it/10 ^^[[]$\
 T5/times/m/n/10 ). The \T5/pcr/n/n/10 mo-tion_variance
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 227--228
+Underfull \hbox (badness 5345) in paragraph at lines 222--223
 \T5/times/m/n/10 tial sep-a-ra-tion be-tween di-verse phys-i-o-log-i-cal an-
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 230.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 230.
+(Font)              using `T5/formata/b/it' instead on input line 225.
 
 
-Package xcolor Warning: Incompatible color definition on input line 239.
-
-
-LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 239.
-
-
-Package xcolor Warning: Incompatible color definition on input line 242.
+Package xcolor Warning: Incompatible color definition on input line 234.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 242.
+(Font)              using `T5/formata/b/it' instead on input line 234.
+
+
+Package xcolor Warning: Incompatible color definition on input line 237.
+
+
+LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
+(Font)              using `T5/formata/b/it' instead on input line 237.
+
+
+Package xcolor Warning: Incompatible color definition on input line 240.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 244.
+Package pdftex.def Info: notaglinelogo.png  used on input line 245.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 244.
+(Font)              using `T1/formata/m/it' instead on input line 245.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1282,55 +1285,59 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [6]
 
-Package xcolor Warning: Incompatible color definition on input line 245.
-
-
-Package xcolor Warning: Incompatible color definition on input line 251.
+Package xcolor Warning: Incompatible color definition on input line 246.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 251.
+(Font)              using `T5/formata/b/it' instead on input line 246.
 
-<figures/VSL_class_distribution_histogram.png, id=334, 448.074pt x 335.3328pt>
+<figures/VSL_class_distribution_histogram.png, id=341, 448.074pt x 335.3328pt>
 File: figures/VSL_class_distribution_histogram.png Graphic file (type png)
 <use figures/VSL_class_distribution_histogram.png>
 Package pdftex.def Info: figures/VSL_class_distribution_histogram.png  used on 
-input line 257.
+input line 252.
 (pdftex.def)             Requested size: 242.67355pt x 181.61426pt.
 
-Package xcolor Warning: Incompatible color definition on input line 258.
+Package xcolor Warning: Incompatible color definition on input line 253.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 258.
+(Font)              using `T5/formata/b/n' instead on input line 253.
 
 
-Package xcolor Warning: Incompatible color definition on input line 258.
-
-
-LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 258.
-
-
-Package xcolor Warning: Incompatible color definition on input line 264.
+Package xcolor Warning: Incompatible color definition on input line 253.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 264.
+(Font)              using `T5/formata/b/n' instead on input line 253.
+
+
+Package xcolor Warning: Incompatible color definition on input line 259.
+
+
+LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
+(Font)              using `T5/formata/b/n' instead on input line 259.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 267.
+(Font)              <8> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 267.
+(Font)              <6> on input line 262.
 
-Underfull \hbox (badness 1715) in paragraph at lines 292--293
+Underfull \hbox (badness 1715) in paragraph at lines 287--288
 \T5/times/m/n/10 min=1.97s, max=17.18s) com-pared with 2.43 sec-onds
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 294--295
+Underfull \hbox (badness 5077) in paragraph at lines 289--290
 []\T5/times/m/n/10 Frame rate uni-for-mity fur-ther dis-tin-guishes the two
  []
+
+
+Package xcolor Warning: Incompatible color definition on input line 293.
+
+
+LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
+(Font)              using `T5/formata/b/it' instead on input line 293.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
@@ -1356,69 +1363,63 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7 <./figures/VSL_class_distribution_histogram.png>]
-
-Package xcolor Warning: Incompatible color definition on input line 298.
-
-
-LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 298.
-
-<figures/VSL_lorenz_curve.png, id=352, 390.4989pt x 390.9807pt>
+<figures/VSL_lorenz_curve.png, id=358, 390.4989pt x 390.9807pt>
 File: figures/VSL_lorenz_curve.png Graphic file (type png)
 <use figures/VSL_lorenz_curve.png>
-Package pdftex.def Info: figures/VSL_lorenz_curve.png  used on input line 307.
+Package pdftex.def Info: figures/VSL_lorenz_curve.png  used on input line 302.
 (pdftex.def)             Requested size: 242.67355pt x 242.97824pt.
 
-Package xcolor Warning: Incompatible color definition on input line 308.
+
+Package xcolor Warning: Incompatible color definition on input line 303.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 308.
+(Font)              using `T5/formata/b/n' instead on input line 303.
 
 
-Package xcolor Warning: Incompatible color definition on input line 308.
+Package xcolor Warning: Incompatible color definition on input line 303.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 308.
+(Font)              using `T5/formata/b/n' instead on input line 303.
 
-<figures/class_count_boxplot_comparison.png, id=353, 437.9562pt x 335.3328pt>
+<figures/class_count_boxplot_comparison.png, id=359, 437.9562pt x 335.3328pt>
 File: figures/class_count_boxplot_comparison.png Graphic file (type png)
 <use figures/class_count_boxplot_comparison.png>
 Package pdftex.def Info: figures/class_count_boxplot_comparison.png  used on in
-put line 314.
+put line 309.
 (pdftex.def)             Requested size: 242.67355pt x 185.81001pt.
 
-Package xcolor Warning: Incompatible color definition on input line 315.
+Package xcolor Warning: Incompatible color definition on input line 310.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 315.
+(Font)              using `T5/formata/b/n' instead on input line 310.
 
 
-Package xcolor Warning: Incompatible color definition on input line 315.
+Package xcolor Warning: Incompatible color definition on input line 310.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 315.
+(Font)              using `T5/formata/b/n' instead on input line 310.
 
 
-Package xcolor Warning: Incompatible color definition on input line 319.
+Package xcolor Warning: Incompatible color definition on input line 314.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 319.
+(Font)              using `T5/formata/b/it' instead on input line 314.
 
 
-Package xcolor Warning: Incompatible color definition on input line 323.
+Package xcolor Warning: Incompatible color definition on input line 318.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 331.
+Package pdftex.def Info: notaglinelogo.png  used on input line 326.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 331.
+(Font)              using `T1/formata/m/it' instead on input line 326.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1438,130 +1439,130 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [8 <./figures/VSL_lorenz_curve.png> <./figures/class_count_boxplot_comparison.p
 ng>]
 
-Package xcolor Warning: Incompatible color definition on input line 332.
+Package xcolor Warning: Incompatible color definition on input line 327.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 332.
+(Font)              using `T5/formata/b/it' instead on input line 327.
 
 
-Package xcolor Warning: Incompatible color definition on input line 339.
+Package xcolor Warning: Incompatible color definition on input line 334.
 
-<figures/boxplot_total_motion.png, id=369, 578.16pt x 361.35pt>
+<figures/boxplot_total_motion.png, id=375, 578.16pt x 361.35pt>
 File: figures/boxplot_total_motion.png Graphic file (type png)
 <use figures/boxplot_total_motion.png>
 Package pdftex.def Info: figures/boxplot_total_motion.png  used on input line 3
-48.
+43.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 349.
+Package xcolor Warning: Incompatible color definition on input line 344.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 349.
+(Font)              using `T5/formata/b/n' instead on input line 344.
 
 
-Package xcolor Warning: Incompatible color definition on input line 349.
+Package xcolor Warning: Incompatible color definition on input line 344.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 349.
+(Font)              using `T5/formata/b/n' instead on input line 344.
 
-<figures/histogram_total_motion.png, id=370, 578.16pt x 361.35pt>
+<figures/histogram_total_motion.png, id=376, 578.16pt x 361.35pt>
 File: figures/histogram_total_motion.png Graphic file (type png)
 <use figures/histogram_total_motion.png>
 Package pdftex.def Info: figures/histogram_total_motion.png  used on input line
- 355.
+ 350.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 356.
+Package xcolor Warning: Incompatible color definition on input line 351.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 356.
+(Font)              using `T5/formata/b/n' instead on input line 351.
 
 
-Package xcolor Warning: Incompatible color definition on input line 356.
+Package xcolor Warning: Incompatible color definition on input line 351.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 356.
+(Font)              using `T5/formata/b/n' instead on input line 351.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 355.
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 362--363
+Underfull \hbox (badness 1708) in paragraph at lines 357--358
 \T5/times/m/n/10 Applying the first- and second-order deriva-tives $\T5/times/m
 /it/10 V[]$ \T5/times/m/n/10 and
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 362--363
+Underfull \hbox (badness 2698) in paragraph at lines 357--358
 \T5/times/m/n/10 troid tra-jec-to-ries, we ag-gre-gate the global ki-netic met-
 
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 362--363
+Underfull \hbox (badness 1946) in paragraph at lines 357--358
 \T5/times/m/n/10 rics \T5/pcr/n/n/10 mean_velocity \T5/times/m/n/10 ($[]$), \T5
 /pcr/n/n/10 max_velocity\T5/times/m/n/10 , \T5/pcr/n/n/10 ve-loc-
  []
 
-<figures/boxplot_mean_velocity.png, id=375, 578.16pt x 361.35pt>
+<figures/boxplot_mean_velocity.png, id=381, 578.16pt x 361.35pt>
 File: figures/boxplot_mean_velocity.png Graphic file (type png)
 <use figures/boxplot_mean_velocity.png>
 Package pdftex.def Info: figures/boxplot_mean_velocity.png  used on input line 
-369.
+364.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 370.
+Package xcolor Warning: Incompatible color definition on input line 365.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 370.
+(Font)              using `T5/formata/b/n' instead on input line 365.
 
 
-Package xcolor Warning: Incompatible color definition on input line 370.
+Package xcolor Warning: Incompatible color definition on input line 365.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 370.
+(Font)              using `T5/formata/b/n' instead on input line 365.
 
-<figures/boxplot_mean_acceleration.png, id=376, 578.16pt x 361.35pt>
+<figures/boxplot_mean_acceleration.png, id=382, 578.16pt x 361.35pt>
 File: figures/boxplot_mean_acceleration.png Graphic file (type png)
 <use figures/boxplot_mean_acceleration.png>
 Package pdftex.def Info: figures/boxplot_mean_acceleration.png  used on input l
-ine 376.
+ine 371.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 377.
+Package xcolor Warning: Incompatible color definition on input line 372.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 377.
+(Font)              using `T5/formata/b/n' instead on input line 372.
 
 
-Package xcolor Warning: Incompatible color definition on input line 377.
+Package xcolor Warning: Incompatible color definition on input line 372.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 377.
+(Font)              using `T5/formata/b/n' instead on input line 372.
 
 
-Package xcolor Warning: Incompatible color definition on input line 384.
+Package xcolor Warning: Incompatible color definition on input line 379.
 
 
 LaTeX Warning: Citation `pearson1901lines' on page 9 undefined on input line 38
-6.
+1.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 387.
+(Font)              using `T1/formata/m/it' instead on input line 385.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 387.
+Package pdftex.def Info: notaglinelogo.png  used on input line 385.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1580,99 +1581,99 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [9 <./figures/boxplot_total_motion.png> <./figures/histogram_total_motion.png> 
 <./figures/boxplot_mean_velocity.png>]
-<figures/boxplot_straightness_ratio.png, id=392, 578.16pt x 361.35pt>
+<figures/boxplot_straightness_ratio.png, id=398, 578.16pt x 361.35pt>
 File: figures/boxplot_straightness_ratio.png Graphic file (type png)
 <use figures/boxplot_straightness_ratio.png>
 Package pdftex.def Info: figures/boxplot_straightness_ratio.png  used on input 
-line 393.
+line 388.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 394.
+Package xcolor Warning: Incompatible color definition on input line 389.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 394.
+(Font)              using `T5/formata/b/n' instead on input line 389.
 
 
-Package xcolor Warning: Incompatible color definition on input line 394.
+Package xcolor Warning: Incompatible color definition on input line 389.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 394.
+(Font)              using `T5/formata/b/n' instead on input line 389.
 
-<figures/trajectory_examples_VSL.png, id=393, 578.16pt x 433.62pt>
+<figures/trajectory_examples_VSL.png, id=399, 578.16pt x 433.62pt>
 File: figures/trajectory_examples_VSL.png Graphic file (type png)
 <use figures/trajectory_examples_VSL.png>
 Package pdftex.def Info: figures/trajectory_examples_VSL.png  used on input lin
-e 400.
+e 395.
 (pdftex.def)             Requested size: 242.67355pt x 182.00006pt.
 
-Package xcolor Warning: Incompatible color definition on input line 401.
+Package xcolor Warning: Incompatible color definition on input line 396.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 401.
+(Font)              using `T5/formata/b/n' instead on input line 396.
 
 
-Package xcolor Warning: Incompatible color definition on input line 401.
+Package xcolor Warning: Incompatible color definition on input line 396.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 401.
+(Font)              using `T5/formata/b/n' instead on input line 396.
 
-<figures/trajectory_examples_ASL.png, id=394, 578.16pt x 433.62pt>
+<figures/trajectory_examples_ASL.png, id=400, 578.16pt x 433.62pt>
 File: figures/trajectory_examples_ASL.png Graphic file (type png)
 <use figures/trajectory_examples_ASL.png>
 Package pdftex.def Info: figures/trajectory_examples_ASL.png  used on input lin
-e 407.
+e 402.
 (pdftex.def)             Requested size: 242.67355pt x 182.00006pt.
 
-Package xcolor Warning: Incompatible color definition on input line 408.
+Package xcolor Warning: Incompatible color definition on input line 403.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 408.
+(Font)              using `T5/formata/b/n' instead on input line 403.
 
 
-Package xcolor Warning: Incompatible color definition on input line 408.
+Package xcolor Warning: Incompatible color definition on input line 403.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 408.
+(Font)              using `T5/formata/b/n' instead on input line 403.
 
-<figures/scatter_total_motion_vs_motion_variance.png, id=396, 578.16pt x 361.35
+<figures/scatter_total_motion_vs_motion_variance.png, id=402, 578.16pt x 361.35
 pt>
 File: figures/scatter_total_motion_vs_motion_variance.png Graphic file (type pn
 g)
 <use figures/scatter_total_motion_vs_motion_variance.png>
 Package pdftex.def Info: figures/scatter_total_motion_vs_motion_variance.png  u
-sed on input line 417.
+sed on input line 412.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 418.
+Package xcolor Warning: Incompatible color definition on input line 413.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 418.
+(Font)              using `T5/formata/b/n' instead on input line 413.
 
 
-Package xcolor Warning: Incompatible color definition on input line 418.
+Package xcolor Warning: Incompatible color definition on input line 413.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 418.
+(Font)              using `T5/formata/b/n' instead on input line 413.
 
 
-Package xcolor Warning: Incompatible color definition on input line 422.
+Package xcolor Warning: Incompatible color definition on input line 417.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 429.
+Package pdftex.def Info: notaglinelogo.png  used on input line 420.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 429.
+(Font)              using `T1/formata/m/it' instead on input line 420.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1691,71 +1692,71 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [10 <./figures/boxplot_mean_acceleration.png> <./figures/boxplot_straightness_r
 atio.png> <./figures/trajectory_examples_VSL.png> <./figures/trajectory_example
-s_ASL.png>]
+s_ASL.png> <./figures/scatter_total_motion_vs_motion_variance.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 433.
+Package xcolor Warning: Incompatible color definition on input line 428.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 433.
+(Font)              using `T5/formata/b/it' instead on input line 428.
 
-<figures/ASL_one_two_hand_distribution.png, id=412, 578.16pt x 361.35pt>
+<figures/ASL_one_two_hand_distribution.png, id=419, 578.16pt x 361.35pt>
 File: figures/ASL_one_two_hand_distribution.png Graphic file (type png)
 <use figures/ASL_one_two_hand_distribution.png>
 Package pdftex.def Info: figures/ASL_one_two_hand_distribution.png  used on inp
-ut line 444.
+ut line 439.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 445.
+Package xcolor Warning: Incompatible color definition on input line 440.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 445.
+(Font)              using `T5/formata/b/n' instead on input line 440.
 
 
-Package xcolor Warning: Incompatible color definition on input line 445.
+Package xcolor Warning: Incompatible color definition on input line 440.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 445.
+(Font)              using `T5/formata/b/n' instead on input line 440.
 
-<figures/VSL_one_two_hand_distribution.png, id=413, 578.16pt x 361.35pt>
+<figures/VSL_one_two_hand_distribution.png, id=420, 578.16pt x 361.35pt>
 File: figures/VSL_one_two_hand_distribution.png Graphic file (type png)
 <use figures/VSL_one_two_hand_distribution.png>
 Package pdftex.def Info: figures/VSL_one_two_hand_distribution.png  used on inp
-ut line 451.
+ut line 446.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 452.
+Package xcolor Warning: Incompatible color definition on input line 447.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 452.
+(Font)              using `T5/formata/b/n' instead on input line 447.
+
+
+Package xcolor Warning: Incompatible color definition on input line 447.
+
+
+LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
+(Font)              using `T5/formata/b/n' instead on input line 447.
 
 
 Package xcolor Warning: Incompatible color definition on input line 452.
 
 
-LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 452.
-
-
-Package xcolor Warning: Incompatible color definition on input line 457.
-
-
-Package xcolor Warning: Incompatible color definition on input line 466.
+Package xcolor Warning: Incompatible color definition on input line 461.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 466.
+(Font)              using `T5/formata/b/it' instead on input line 461.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 470.
+(Font)              using `T1/formata/m/it' instead on input line 466.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 470.
+Package pdftex.def Info: notaglinelogo.png  used on input line 466.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1772,63 +1773,63 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[11 <./figures/scatter_total_motion_vs_motion_variance.png> <./figures/ASL_one_
-two_hand_distribution.png> <./figures/VSL_one_two_hand_distribution.png>]
+[11 <./figures/ASL_one_two_hand_distribution.png> <./figures/VSL_one_two_hand_d
+istribution.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 474.
+Package xcolor Warning: Incompatible color definition on input line 469.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 474.
+(Font)              using `T5/formata/b/n' instead on input line 469.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 481.
+(Font)              <9> on input line 476.
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
 []|\T5/times/m/it/9 chua bai \T5/times/m/n/9 (cor-rect
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 497--497
+Underfull \hbox (badness 6691) in paragraph at lines 492--492
 []|\T5/times/m/it/9 hop nhom \T5/times/m/n/9 (group
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T5/times/m/it/9 Tet Duong \T5/times/m/n/9 (New
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 511.
+Package xcolor Warning: Incompatible color definition on input line 506.
 
 
-Package xcolor Warning: Incompatible color definition on input line 517.
-
-
-LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 517.
-
-
-Package xcolor Warning: Incompatible color definition on input line 527.
+Package xcolor Warning: Incompatible color definition on input line 512.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 527.
+(Font)              using `T5/formata/b/it' instead on input line 512.
 
 
-Package xcolor Warning: Incompatible color definition on input line 533.
+Package xcolor Warning: Incompatible color definition on input line 522.
+
+
+LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
+(Font)              using `T5/formata/b/it' instead on input line 522.
+
+
+Package xcolor Warning: Incompatible color definition on input line 528.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 533.
+(Font)              using `T5/formata/b/n' instead on input line 528.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 558.
+Package pdftex.def Info: notaglinelogo.png  used on input line 555.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 558.
+(Font)              using `T1/formata/m/it' instead on input line 555.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1847,49 +1848,59 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [12]
 
+Package xcolor Warning: Incompatible color definition on input line 567.
+
+
 Package xcolor Warning: Incompatible color definition on input line 572.
 
 
-Package xcolor Warning: Incompatible color definition on input line 577.
-
-
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 577.
+(Font)              using `T5/formata/b/it' instead on input line 572.
 
-<figures/01_similarity_histogram.png, id=438, 578.16pt x 361.35pt>
+<figures/01_similarity_histogram.png, id=444, 578.16pt x 361.35pt>
 File: figures/01_similarity_histogram.png Graphic file (type png)
 <use figures/01_similarity_histogram.png>
 Package pdftex.def Info: figures/01_similarity_histogram.png  used on input lin
-e 593.
+e 588.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 594.
+Package xcolor Warning: Incompatible color definition on input line 589.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 594.
+(Font)              using `T5/formata/b/n' instead on input line 589.
 
 
-Package xcolor Warning: Incompatible color definition on input line 594.
+Package xcolor Warning: Incompatible color definition on input line 589.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 594.
+(Font)              using `T5/formata/b/n' instead on input line 589.
 
 
-Package xcolor Warning: Incompatible color definition on input line 598.
+Package xcolor Warning: Incompatible color definition on input line 593.
 
 
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 598.
+(Font)              using `T5/formata/b/it' instead on input line 593.
+
+
+Package xcolor Warning: Incompatible color definition on input line 600.
+
+
+Package xcolor Warning: Incompatible color definition on input line 664.
+
+
+LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
+(Font)              using `T5/formata/b/it' instead on input line 664.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 602.
+(Font)              using `T1/formata/m/it' instead on input line 666.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 602.
+Package pdftex.def Info: notaglinelogo.png  used on input line 666.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1907,75 +1918,51 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [13 <./figures/01_similarity_histogram.png>]
-
-Package xcolor Warning: Incompatible color definition on input line 605.
-
-
-Package xcolor Warning: Incompatible color definition on input line 669.
-
-
-LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 669.
-
-<figures/08_similarity_vs_motion_difference.png, id=451, 578.16pt x 361.35pt>
+<figures/08_similarity_vs_motion_difference.png, id=457, 578.16pt x 361.35pt>
 File: figures/08_similarity_vs_motion_difference.png Graphic file (type png)
 <use figures/08_similarity_vs_motion_difference.png>
 Package pdftex.def Info: figures/08_similarity_vs_motion_difference.png  used o
-n input line 677.
+n input line 672.
 (pdftex.def)             Requested size: 242.67355pt x 151.66672pt.
 
-Package xcolor Warning: Incompatible color definition on input line 678.
+
+Package xcolor Warning: Incompatible color definition on input line 673.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 678.
+(Font)              using `T5/formata/b/n' instead on input line 673.
 
 
-Package xcolor Warning: Incompatible color definition on input line 678.
-
-
-LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 678.
-
-
-Package xcolor Warning: Incompatible color definition on input line 687.
+Package xcolor Warning: Incompatible color definition on input line 673.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 687.
+(Font)              using `T5/formata/b/n' instead on input line 673.
+
+
+Package xcolor Warning: Incompatible color definition on input line 682.
+
+
+LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
+(Font)              using `T5/formata/b/n' instead on input line 682.
+
+
+Package xcolor Warning: Incompatible color definition on input line 702.
 
 
 Package xcolor Warning: Incompatible color definition on input line 707.
 
 
-Package xcolor Warning: Incompatible color definition on input line 712.
-
-
 LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 712.
-
-
-Package xcolor Warning: Incompatible color definition on input line 721.
-
-
-LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
-(Font)              using `T5/formata/b/it' instead on input line 721.
-
-
-LaTeX Warning: Reference `fig:asl_410_pca' on page 14 undefined on input line 7
-22.
-
-
-LaTeX Warning: Reference `fig:vsl_410_pca' on page 14 undefined on input line 7
-22.
+(Font)              using `T5/formata/b/it' instead on input line 707.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 727.
+Package pdftex.def Info: notaglinelogo.png  used on input line 713.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 727.
+(Font)              using `T1/formata/m/it' instead on input line 713.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1994,108 +1981,123 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [14 <./figures/08_similarity_vs_motion_difference.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 730.
+Package xcolor Warning: Incompatible color definition on input line 716.
 
 
-Package xcolor Warning: Incompatible color definition on input line 756.
+LaTeX Font Warning: Font shape `T5/formata/b/sl' undefined
+(Font)              using `T5/formata/b/it' instead on input line 716.
 
-<../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png, id=477, 787.743pt 
+
+LaTeX Warning: Reference `fig:asl_410_pca' on page 15 undefined on input line 7
+17.
+
+
+LaTeX Warning: Reference `fig:vsl_410_pca' on page 15 undefined on input line 7
+17.
+
+
+Package xcolor Warning: Incompatible color definition on input line 725.
+
+
+Package xcolor Warning: Incompatible color definition on input line 751.
+
+<../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png, id=483, 787.743pt 
 x 573.1011pt>
 File: ../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png Graphic file (
 type png)
 <use ../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png>
 Package pdftex.def Info: ../ACCESS_latex_template_20260513_V2/figures/wlasl_pca
-.png  used on input line 786.
+.png  used on input line 781.
 (pdftex.def)             Requested size: 178.36427pt x 129.76419pt.
-<../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png, id=478, 787.743pt x 
+<../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png, id=484, 787.743pt x 
 573.1011pt>
 File: ../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png Graphic file (ty
 pe png)
 <use ../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png>
 Package pdftex.def Info: ../ACCESS_latex_template_20260513_V2/figures/vsl_pca.p
-ng  used on input line 789.
+ng  used on input line 784.
 (pdftex.def)             Requested size: 178.36427pt x 129.76419pt.
 
-Package xcolor Warning: Incompatible color definition on input line 792.
+Package xcolor Warning: Incompatible color definition on input line 787.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 792.
+(Font)              using `T5/formata/b/n' instead on input line 787.
 
 
-Package xcolor Warning: Incompatible color definition on input line 792.
+Package xcolor Warning: Incompatible color definition on input line 787.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 792.
+(Font)              using `T5/formata/b/n' instead on input line 787.
 
-<../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png, id=481, 786.5385p
+<../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png, id=487, 786.5385p
 t x 573.1011pt>
 File: ../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png Graphic file 
 (type png)
 <use ../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png>
 Package pdftex.def Info: ../ACCESS_latex_template_20260513_V2/figures/wlasl_tsn
-e.png  used on input line 800.
+e.png  used on input line 795.
 (pdftex.def)             Requested size: 178.36427pt x 129.95657pt.
-<../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png, id=482, 787.5021pt 
+<../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png, id=488, 787.5021pt 
 x 573.1011pt>
 File: ../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png Graphic file (t
 ype png)
 <use ../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png>
 Package pdftex.def Info: ../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.
-png  used on input line 803.
+png  used on input line 798.
 (pdftex.def)             Requested size: 178.36427pt x 129.79916pt.
 
-Package xcolor Warning: Incompatible color definition on input line 806.
+Package xcolor Warning: Incompatible color definition on input line 801.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 806.
+(Font)              using `T5/formata/b/n' instead on input line 801.
 
 
-Package xcolor Warning: Incompatible color definition on input line 806.
+Package xcolor Warning: Incompatible color definition on input line 801.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 806.
+(Font)              using `T5/formata/b/n' instead on input line 801.
 
-<../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png, id=483, 787.743pt
+<../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png, id=489, 787.743pt
  x 573.1011pt>
 File: ../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png Graphic file 
 (type png)
 <use ../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png>
 Package pdftex.def Info: ../ACCESS_latex_template_20260513_V2/figures/wlasl_uma
-p.png  used on input line 814.
+p.png  used on input line 809.
 (pdftex.def)             Requested size: 178.36427pt x 129.76419pt.
-<../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png, id=484, 787.743pt x
+<../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png, id=490, 787.743pt x
  573.1011pt>
 File: ../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png Graphic file (t
 ype png)
 <use ../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png>
 Package pdftex.def Info: ../ACCESS_latex_template_20260513_V2/figures/vsl_umap.
-png  used on input line 817.
+png  used on input line 812.
 (pdftex.def)             Requested size: 178.36427pt x 129.76419pt.
 
-Package xcolor Warning: Incompatible color definition on input line 820.
+Package xcolor Warning: Incompatible color definition on input line 815.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 820.
+(Font)              using `T5/formata/b/n' instead on input line 815.
 
 
-Package xcolor Warning: Incompatible color definition on input line 820.
+Package xcolor Warning: Incompatible color definition on input line 815.
 
 
 LaTeX Font Warning: Font shape `T5/formata/bx/n' undefined
-(Font)              using `T5/formata/b/n' instead on input line 820.
+(Font)              using `T5/formata/b/n' instead on input line 815.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 827.
+(Font)              using `T1/formata/m/it' instead on input line 824.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 827.
+Package pdftex.def Info: notaglinelogo.png  used on input line 824.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -2115,12 +2117,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [15]
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 832.
+Package pdftex.def Info: notaglinelogo.png  used on input line 827.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 832.
+(Font)              using `T1/formata/m/it' instead on input line 827.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -2142,29 +2144,29 @@ ex_template_20260513_V2/figures/vsl_pca.png> <../ACCESS_latex_template_20260513
 _V2/figures/wlasl_tsne.png> <../ACCESS_latex_template_20260513_V2/figures/vsl_t
 sne.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 836.
+Package xcolor Warning: Incompatible color definition on input line 831.
 
 
-Package xcolor Warning: Incompatible color definition on input line 845.
+Package xcolor Warning: Incompatible color definition on input line 840.
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 881--881
+Underfull \hbox (badness 7168) in paragraph at lines 876--876
 []|\T5/times/m/n/9 Contrastive Rep-re-sen-ta-
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 904.
+Package xcolor Warning: Incompatible color definition on input line 899.
 
 
-Package xcolor Warning: Incompatible color definition on input line 916.
+Package xcolor Warning: Incompatible color definition on input line 911.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 921.
+(Font)              using `T1/formata/m/it' instead on input line 916.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 921.
+Package pdftex.def Info: notaglinelogo.png  used on input line 916.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -2185,12 +2187,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 tex_template_20260513_V2/figures/vsl_umap.png>]
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 925.
+Package pdftex.def Info: notaglinelogo.png  used on input line 920.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 925.
+(Font)              using `T1/formata/m/it' instead on input line 920.
 
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -2211,33 +2213,33 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 928.
+Package xcolor Warning: Incompatible color definition on input line 923.
 
 
-Package xcolor Warning: Incompatible color definition on input line 932.
+Package xcolor Warning: Incompatible color definition on input line 927.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1016.
+Package xcolor Warning: Incompatible color definition on input line 1012.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1023.
+Package xcolor Warning: Incompatible color definition on input line 1019.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1096.
+Package xcolor Warning: Incompatible color definition on input line 1093.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1103.
+Package xcolor Warning: Incompatible color definition on input line 1100.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1165.
+Package xcolor Warning: Incompatible color definition on input line 1162.
 
 
 LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 1259.
+(Font)              using `T1/formata/m/it' instead on input line 1256.
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 1259.
+Package pdftex.def Info: notaglinelogo.png  used on input line 1256.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -2257,65 +2259,74 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [19
 
 ]
+File: notaglinelogo.png Graphic file (type png)
+<use notaglinelogo.png>
+Package pdftex.def Info: notaglinelogo.png  used on input line 1256.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+
+LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
+(Font)              using `T1/formata/m/it' instead on input line 1256.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[20]
+
+LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
+(Font)              using `T1/formata/m/it' instead on input line 1256.
+
+File: notaglinelogo.png Graphic file (type png)
+<use notaglinelogo.png>
+Package pdftex.def Info: notaglinelogo.png  used on input line 1256.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[21
+
+
+]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1259.
+(hyperref)                be the same. Added a new anchor on input line 1258.
 
-<author1.png, id=546, 225.84375pt x 282.30469pt>
-File: author1.png Graphic file (type png)
-<use author1.png>
-Package pdftex.def Info: author1.png  used on input line 1259.
-(pdftex.def)             Requested size: 72.27147pt x 90.33934pt.
-File: author1.png Graphic file (type png)
-<use author1.png>
-Package pdftex.def Info: author1.png  used on input line 1259.
-(pdftex.def)             Requested size: 72.27147pt x 90.33934pt.
-<author2.png, id=549, 225.84375pt x 282.30469pt>
-File: author2.png Graphic file (type png)
-<use author2.png>
-Package pdftex.def Info: author2.png  used on input line 1278.
-(pdftex.def)             Requested size: 72.27147pt x 90.33934pt.
-File: author2.png Graphic file (type png)
-<use author2.png>
-Package pdftex.def Info: author2.png  used on input line 1278.
-(pdftex.def)             Requested size: 72.27147pt x 90.33934pt.
-File: notaglinelogo.png Graphic file (type png)
-<use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 1304.
-(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
-
-LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 1304.
-
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[20 <./author1.png>]
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 1326.
+Package pdftex.def Info: bullet.png  used on input line 1325.
 (pdftex.def)             Requested size: 4.0pt x 11.74957pt.
-
-
-LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
-(Font)              using `T1/formata/m/it' instead on input line 1329.
-
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 1329.
+Package pdftex.def Info: notaglinelogo.png  used on input line 1327.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+LaTeX Font Warning: Font shape `T1/formata/m/sl' undefined
+(Font)              using `T1/formata/m/it' instead on input line 1327.
+
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
 []
@@ -2331,7 +2342,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[21 <./author2.png>] (./access.aux)
+[22
+
+
+] (./access.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -2344,16 +2358,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `access.out' has not changed.
-(rerunfilecheck)             Checksum: C076DC3BB2BC10FEF382F39E07093B69;12274.
+(rerunfilecheck)             Checksum: D75C0BBE40325A25278F41928EE22053;12526.
  ) 
 Here is how much of TeX's memory you used:
- 13750 strings out of 467168
- 216326 string characters out of 5413706
+ 13735 strings out of 467168
+ 216013 string characters out of 5413706
  667193 words of memory out of 5000000
- 42586 multiletter control sequences out of 15000+600000
+ 42570 multiletter control sequences out of 15000+600000
  983237 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,79p,2029b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,13n,79p,2029b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{section*.1} has been referenced but does not exist,
  replaced by a fixed one
@@ -2373,10 +2387,10 @@ nts/type1/public/amsfonts/symbols/msbm10.pfb><./t1-formata-bold.pfb><./t1-forma
 ta-bolditalic.pfb><./t1-formata-medium.pfb><./t1-formata-mediumitalic.pfb><./t1
 -formata-regular.pfb><./t1-times-bold.pfb><./t1-times-italic.pfb><./t1-times.pf
 b><c:/texlive/2026/texmf-dist/fonts/type1/vntex/urwvn/ucrr8v.pfb>
-Output written on access.pdf (21 pages, 13239173 bytes).
+Output written on access.pdf (22 pages, 13071741 bytes).
 PDF statistics:
  704 PDF objects out of 1000 (max. 8388607)
- 573 compressed objects within 6 object streams
- 155 named destinations out of 1000 (max. 500000)
- 571 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 compressed objects within 6 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 553 words of extra memory for PDF output out of 10000 (max. 10000000)
 
