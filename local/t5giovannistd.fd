@@ -1,0 +1,2 @@
+\DeclareFontFamily{T5}{giovannistd}{}
+\DeclareFontShape{T5}{giovannistd}{n}{it}{<->   t1-giovannistd-bookitalic}{}

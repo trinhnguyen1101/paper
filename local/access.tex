@@ -12,7 +12,7 @@
 \usepackage{placeins}
 \usepackage[hidelinks]{hyperref}
 %\usepackage[utf8]{caption}
-\usepackage[T1]{fontenc}
+\usepackage[T1,T5]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 
@@ -47,6 +47,9 @@
   \gdef\operator@encoding{T5}%
   \gdef\encodingdefault{T5}%
 }
+\DeclareRobustCommand{\textbf}[1]{{\bfseries #1}}
+\DeclareRobustCommand{\bf}{\bfseries}
+\def\@doi{}
 \makeatother
 % --- end patch ---
 
@@ -781,10 +784,10 @@ VSL & 3500 & 2750 & 0.2500 & 0.3960 & -0.0907 & 1.4237 & 11.7156 \\
 \begin{minipage}{0.75\linewidth}
 \centering
 \includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_pca.png}\\[6pt]
-\caption*{(a) WLASL PCA}
+\centerline{\footnotesize (a) WLASL PCA}
 \vspace{8pt}
 \includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_pca.png}\\[6pt]
-\caption*{(b) VSL PCA}
+\centerline{\footnotesize (b) VSL PCA}
 \end{minipage}
 \caption{\textbf{Principal-component projections of the aggregated feature space.} PCA exposes the dominant linear variance directions but does not fully separate gloss neighborhoods, consistent with the moderate explained-variance ratios reported in Table~\ref{tab:feature_space_summary}.}
 \label{fig:pca_pair}
@@ -795,10 +798,10 @@ VSL & 3500 & 2750 & 0.2500 & 0.3960 & -0.0907 & 1.4237 & 11.7156 \\
 \begin{minipage}{0.75\linewidth}
 \centering
 \includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_tsne.png}\\[6pt]
-\caption*{(a) WLASL t-SNE}
+\centerline{\footnotesize (a) WLASL t-SNE}
 \vspace{8pt}
 \includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_tsne.png}\\[6pt]
-\caption*{(b) VSL t-SNE}
+\centerline{\footnotesize (b) VSL t-SNE}
 \end{minipage}
 \caption{\textbf{Local-neighborhood structure under t-SNE.} The non-linear embedding reveals multiple dense pockets, bridges, and fragmented regions, indicating that locality is preserved better than global linear separability.}
 \label{fig:tsne_pair}
@@ -809,10 +812,10 @@ VSL & 3500 & 2750 & 0.2500 & 0.3960 & -0.0907 & 1.4237 & 11.7156 \\
 \begin{minipage}{0.75\linewidth}
 \centering
 \includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/wlasl_umap.png}\\[6pt]
-\caption*{(a) WLASL UMAP}
+\centerline{\footnotesize (a) WLASL UMAP}
 \vspace{8pt}
 \includegraphics[width=0.98\linewidth]{../ACCESS_latex_template_20260513_V2/figures/vsl_umap.png}\\[6pt]
-\caption*{(b) VSL UMAP}
+\centerline{\footnotesize (b) VSL UMAP}
 \end{minipage}
 \caption{\textbf{Manifold organization under UMAP.} UMAP preserves both local neighborhoods and broader manifold continuity, showing that the corpus contains connected semantic regions alongside isolated outliers.}
 \label{fig:umap_pair}
@@ -1320,7 +1323,7 @@ of plasma sources, and fabrication of micro- or nanostructured surfaces.
 Mr. Author's awards and honors include the Frew Fellowship (Australian
 Academy of Science), the I. I. Rabi Prize (APS), the European Frequency and
 Time Forum Award, the Carl Zeiss Research Award, the William F. Meggers
-Award and the Adolph Lomb Medal (OSA).
+Award and the Adolph Lomb Medal (OSA).\EOD
 \end{IEEEbiographynophoto}
 
 \end{document}

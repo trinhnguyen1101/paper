@@ -1,0 +1,11 @@
+\DeclareFontFamily{T5}{formata}{}
+\DeclareFontShape{T5}{formata}{n}{n}{<->   t1-formata-regular}{}
+\DeclareFontShape{T5}{formata}{n}{it}{<->   t1-formata-italic}{}
+\DeclareFontShape{T5}{formata}{m}{n}{<->   t1-formata-medium}{}
+\DeclareFontShape{T5}{formata}{m}{it}{<->   t1-formata-mediumitalic}{}
+\DeclareFontShape{T5}{formata}{l}{n}{<->   t1-formata-light}{}
+\DeclareFontShape{T5}{formata}{l}{it}{<->   t1-formata-lightitalic}{}
+\DeclareFontShape{T5}{formata}{b}{n}{<->   t1-formata-bold}{}
+\DeclareFontShape{T5}{formata}{b}{it}{<->   t1-formata-bolditalic}{}
+\DeclareFontShape{T5}{formata}{cm}{n}{<->   t1-formata-condmedium}{}
+\DeclareFontShape{T5}{formata}{cm}{it}{<->   t1-formata-condmediumital}{}
